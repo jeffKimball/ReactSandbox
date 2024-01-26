@@ -1,9 +1,10 @@
 import './App.css';
+import SignatureApp from './projects/01-Signature/SignatureApp';
 
 function App() {
   return (
     <div className="App">
-      <h1>Project</h1>
+      <SignatureApp />
     </div>
   );
 }
