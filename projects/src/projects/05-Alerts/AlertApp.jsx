@@ -8,6 +8,7 @@ const AlertApp = () => {
     return (
         <div className='container mx-auto'>
             <Alert type={"success"} message={"Successful Login"}/>
+            <Alert type={"info"} message={"Time Triggered"} delay={true}/>
         </div>
         
     )

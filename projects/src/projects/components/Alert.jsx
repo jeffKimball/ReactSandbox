@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Button from './Button'
 
 
-const Alert = ({ type, message }) => {
+const Alert = ({ type, message, delay = false }) => {
 
     const [showAlert, setShowAlert] = useState(true)
 
@@ -13,6 +13,12 @@ const Alert = ({ type, message }) => {
             setShowAlert(false)
         }, 400)
     }
+
+    useEffect(()=>{
+        delay && setTimeout(()=>{
+            setShowAlert(false)
+        }, 3000)
+    })
 
     return (showAlert &&  <div className={`alert alert-${type}`}>
 
