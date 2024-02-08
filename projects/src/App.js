@@ -1,5 +1,6 @@
 import './App.css';
-import AlertApp from './projects/05-Alerts/AlertApp';
+import Temperature from './projects/06-TemperatureApp/Temperature';
+// import AlertApp from './projects/05-Alerts/AlertApp';
 // import SignatureApp from './projects/01-Signature/SignatureApp';
 // import RandomColors from './projects/02-RandomColors/RandomColors';
 // import LikephotoApp from './projects/03-LikeMyPhoto/LikephotoApp';
@@ -12,7 +13,8 @@ function App() {
       {/* <RandomColors /> */}
       {/* <LikephotoApp /> */}
       {/* <Testimonials /> */}
-      <AlertApp />
+      {/* <AlertApp /> */}
+      <Temperature />
     </div>
   );
 }
