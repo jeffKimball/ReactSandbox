@@ -1,5 +1,6 @@
 import './App.css';
-import Temperature from './projects/06-TemperatureApp/Temperature';
+import LightDarkMode from './projects/07-LightDarkMode/LightDarkMode';
+// import Temperature from './projects/06-TemperatureApp/Temperature';
 // import AlertApp from './projects/05-Alerts/AlertApp';
 // import SignatureApp from './projects/01-Signature/SignatureApp';
 // import RandomColors from './projects/02-RandomColors/RandomColors';
@@ -9,12 +10,13 @@ import Temperature from './projects/06-TemperatureApp/Temperature';
 function App() {
   return (
     <div className="App">
+      <LightDarkMode />
+      {/* <Temperature /> */}
+      {/* <AlertApp /> */}
       {/* <SignatureApp /> */}
       {/* <RandomColors /> */}
       {/* <LikephotoApp /> */}
       {/* <Testimonials /> */}
-      {/* <AlertApp /> */}
-      <Temperature />
     </div>
   );
 }
