@@ -1,5 +1,6 @@
 import './App.css';
-import LightDarkMode from './projects/07-LightDarkMode/LightDarkMode';
+import SlideToUnlock from './projects/08-SlideToUnlock/SlideToUnlock';
+// import LightDarkMode from './projects/07-LightDarkMode/LightDarkMode';
 // import Temperature from './projects/06-TemperatureApp/Temperature';
 // import AlertApp from './projects/05-Alerts/AlertApp';
 // import SignatureApp from './projects/01-Signature/SignatureApp';
@@ -10,7 +11,8 @@ import LightDarkMode from './projects/07-LightDarkMode/LightDarkMode';
 function App() {
   return (
     <div className="App">
-      <LightDarkMode />
+      <SlideToUnlock />
+      {/* <LightDarkMode /> */}
       {/* <Temperature /> */}
       {/* <AlertApp /> */}
       {/* <SignatureApp /> */}
