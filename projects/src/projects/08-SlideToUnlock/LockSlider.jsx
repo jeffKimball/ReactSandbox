@@ -8,7 +8,8 @@ const LockSlider = ({ handleInput, sliderValue, width }) => {
         height: "50px",
         background: "rgba(188, 190, 188, .5)",
         outline: "none",
-    };
+    }
+    
     return (
         <input
             type="range"
