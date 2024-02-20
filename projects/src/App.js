@@ -1,5 +1,6 @@
 import './App.css';
-import SlideToUnlock from './projects/08-SlideToUnlock/SlideToUnlock';
+import PopUPApp from './projects/11-PopUps/PopUPApp';
+// import SlideToUnlock from './projects/08-SlideToUnlock/SlideToUnlock';
 // import LightDarkMode from './projects/07-LightDarkMode/LightDarkMode';
 // import Temperature from './projects/06-TemperatureApp/Temperature';
 // import AlertApp from './projects/05-Alerts/AlertApp';
@@ -11,7 +12,8 @@ import SlideToUnlock from './projects/08-SlideToUnlock/SlideToUnlock';
 function App() {
   return (
     <div className="App">
-      <SlideToUnlock />
+      <PopUPApp />
+      {/* <SlideToUnlock /> */}
       {/* <LightDarkMode /> */}
       {/* <Temperature /> */}
       {/* <AlertApp /> */}
