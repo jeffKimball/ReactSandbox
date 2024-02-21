@@ -3,11 +3,11 @@ import Button from "./Button"
 
 const popUpContainer = {
     position: "absolute",
-    top: "0",
+    top: "100",
     height: "100vh",
     width: "100vw",
     background: "rgba(0, 0, 0, 0.1 )",
-    zIndex: "-1",
+    zIndex: "+1",
 }
 
 const popUpStyle = {
@@ -20,11 +20,11 @@ const PopUp = ({ type, title, text, handleClose }) => {
     return <div style={popUpContainer}>
         <div className={`${type}`}>
             <div className="alert-close">
-                <div className="d-flex flex-column">
+                <div className="d-flex flex-column text-left">
                     <h4 className="mb-1">{title && title}</h4>
                     <p className="mb-1">{text && text}</p>
                 </div>
-                <Button btnClass={"btn-close"} text={"x"} onClick={handleClose}/>
+                <Button btnClass={"btn-close"} text={"x"} onClick={()=>handleClose(false)}/>
             </div>
         </div>
     </div>;
